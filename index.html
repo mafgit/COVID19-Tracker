@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/3c4fd56694.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>COVID19 - TRACKER</title>
+
+</head>
+
+<body>
+  <header>
+    <h1>COVID19 - TRACKER</h1>
+  </header>
+  <div id="container">
+    <div id="searchdiv">
+      <input type="text" id="search" placeholder="Search Country" autocomplete="off">
+      OR
+      <button id="compare">Compare Two Countries</button>
+    </div>
+    <div id="comparediv" style="display: none;">
+      <div id="search1">
+        <input type="text" placeholder="Search Country" class="search search1" autocomplete="off">
+        <div>
+          <li>Confirmed: 0</li>
+          <li>Recovered: 0</li>
+          <li>Deaths: 0</li>
+          <li>Active: 0</li>
+        </div>
+      </div>
+      <div id="search2">
+        <input type="text" placeholder="Search Country" class="search search2" autocomplete="off">
+        <div>
+          <li>Confirmed: 0</li>
+          <li>Recovered: 0</li>
+          <li>Deaths: 0</li>
+          <li>Active: 0</li>
+          <div></div>
+        </div>
+
+      </div>
+    </div>
+    <div id="searchres" style="display: none;">
+    </div>
+    <div id="global">
+      <h1>Global Results</h1>
+      <div></div>
+    </div>
+    <div id="precautions">
+      <div id="heading">
+        <h1>Precautions</h1>
+      </div>
+      <div id="caution">
+        <div><span><i class="fas fa-hand-sparkles"></i></span>Clean your hands often.</div>
+        <div><span><i class="fas fa-people-arrows"></i></span>Maintain a safe distance from anyone who is coughing or
+          sneezing.</div>
+        <div><span><i class="fas fa-hospital-user"></i></span>If you have a fever, cough and difficulty breathing, seek
+          medical attention.</div>
+        <div><span><i class="fas fa-head-side-mask"></i></span>Cover your nose and mouth.</div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
