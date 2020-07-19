@@ -4,4 +4,4 @@ It fetches covid19 results from an API and displays them.
 
 # Overview
 
-![alt text](https://www.dropbox.com/s/cduuc73oga0izdi/covid19tracker.png?dl=0)
+![alt text](https://dl.dropbox.com/s/cduuc73oga0izdi/covid19tracker.png?dl=0)
