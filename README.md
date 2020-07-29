@@ -1,6 +1,7 @@
 # COVID19-Tracker
 It fetches covid19 results from an API and displays them.
-<h3>It uses HTML, CSS, JAVASCRIPT and JQUERY</h3>
+- It uses HTML, CSS, JAVASCRIPT and JQUERY
+- You don't have to press enter or anything, just type in the search bar.
 
 # Overview
 
