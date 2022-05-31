@@ -1,4 +1,3 @@
-> https://mafcovid19tracker.netlify.app/
 # COVID19-Tracker
 It fetches covid19 results from an API and displays them.
 - It uses HTML, CSS, JAVASCRIPT and JQUERY
